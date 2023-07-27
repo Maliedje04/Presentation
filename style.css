@@ -1,0 +1,45 @@
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style pour le titre de niveau 1 */
+h1 {
+    color: #ff5733; /* Couleur orange */
+    
+    padding-bottom: 5px;
+}
+
+/* Style pour le titre de niveau 2 */
+h2 {
+    color: #337ab7; /* Couleur bleue */
+}
+
+/* Style pour les paragraphes */
+p {
+    color: #555555; /* Couleur gris foncé */
+    line-height: 1.6;
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Style pour le texte clignotant */
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blinking-text {
+    animation: blink 1s infinite;
+    color: #e60000; /* Couleur rouge */
+}
